@@ -1,0 +1,55 @@
+:root, html[data-theme='dark'] {
+    --LightOn: none;
+    --LightOff: block;
+    
+    /* Special */
+    --background: #000000;
+    --foreground: #bfc7c7;
+    --cursor: #bfc7c7;
+
+    /* Colors */
+    --color0: #000000;
+    --color1: #0e9da8;
+    --color2: #82b4b9;
+    --color3: #1063aa;
+    --color4: #2e45aa;
+    --color5: #7e3ca9;
+    --color6: #b82589;
+    --color7: #bfc7c7;
+    --color8: #415758;
+    --color9: #0e9da8;
+    --color10: #82b4b9;
+    --color11: #1063aa;
+    --color12: #2e45aa;
+    --color13: #7e3ca9;
+    --color14: #b82589;
+    --color15: #bfc7c7;
+}
+
+html[data-theme='light'] {
+    --LightOn: block;
+    --LightOff: none;
+    
+    /* Special */
+    --background: #F0F0F4;
+    --foreground: #8fc5c6;
+    --cursor: #8fc5c6;
+
+    /* Colors */
+    --color0: #000000;
+    --color1: #9E2A5E;
+    --color2: #D03C6E;
+    --color3: #9D596B;
+    --color4: #378B77;
+    --color5: #628cf5; /*-tree and search titles-*/
+    --color6: #ED6CAE; /*-links-*/
+    --color7: #8fc5c6;
+    --color8: #64898a;
+    --color9: #ED6CAE; /*-'search:'-*/
+    --color10: #f25087; /*-bookmark titles-*/
+    --color11: #9D596B;
+    --color12: #00ffc2; /*-hover/structure-*/
+    --color13: #346D8A;
+    --color14: #CD6A8C;
+    --color15: #8fc5c6;
+}
