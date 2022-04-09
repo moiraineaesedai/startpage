@@ -6,6 +6,8 @@
     --background: #000000;
     --foreground: #bfc7c7;
     --cursor: #bfc7c7;
+    --branch: 1px solid #2e45aa;
+    --searchbox: 1px;
 
     /* Colors */
     --color0: #000000;
@@ -31,9 +33,11 @@ html[data-theme='light'] {
     --LightOff: none;
     
     /* Special */
-    --background: #F0F0F4;
+    --background: #ffffff;
     --foreground: #8fc5c6;
     --cursor: #8fc5c6;
+    --branch: 2px solid #C1F8CB;
+    --searchbox: 2px;
 
     /* Colors */
     --color0: #000000;
@@ -41,14 +45,14 @@ html[data-theme='light'] {
     --color2: #D03C6E;
     --color3: #9D596B;
     --color4: #378B77;
-    --color5: #628cf5; /*-tree and search titles-*/
-    --color6: #ED6CAE; /*-links-*/
+    --color5: #acbbff; /*-tree and search titles-*/
+    --color6: #c5a6fd; /*-links-*/
     --color7: #8fc5c6;
     --color8: #64898a;
-    --color9: #ED6CAE; /*-'search:'-*/
-    --color10: #f25087; /*-bookmark titles-*/
+    --color9: #c5a6fd; /*-'search:'-*/
+    --color10: #fda6de; /*-bookmark titles-*/
     --color11: #9D596B;
-    --color12: #00ffc2; /*-hover/structure-*/
+    --color12: #b4f9c0; /*-hover/structure-*/
     --color13: #346D8A;
     --color14: #CD6A8C;
     --color15: #8fc5c6;
