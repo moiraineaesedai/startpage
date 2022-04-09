@@ -12,7 +12,7 @@
   /* --red: #f25f4c; */
   /* --orange: #ff8906; */
   /* --branch: 1px solid #a7a9be; */
-  --branch: 1px solid var(--color12);
+  --branch: var(--branch);
 }
 
 /*---transition---*/
@@ -563,7 +563,7 @@ input {
   font-size: 1rem;
   color: var(--color6);
   background-color: var(--background);
-  border-width: 1px;
+  border-width: var(--searchbox);
   border-color: var(--color12);
   border-style: solid;
   padding-top: 4px;
